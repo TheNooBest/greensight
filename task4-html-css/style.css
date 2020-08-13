@@ -1,0 +1,30 @@
+html {
+  height: auto;
+}
+
+.note {
+  width: 200px;
+  height: 230px;
+  text-align: center;
+  background-color: #FFC300;
+}
+
+.note p {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.note i::before {
+  content: "* ";
+}
+
+.note table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FF5733;
+}
+
+#superNote {
+  background-color: #DAF7A6;
+}
