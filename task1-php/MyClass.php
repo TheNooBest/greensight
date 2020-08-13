@@ -1,17 +1,19 @@
 <?php
-  namespace Backend\Classes;
+    namespace Greensight\Backend\Classes;
 
-  class MyClass {
-    private $firstname;
-    private $secondname;
+    class MyClass
+    {
+        private $firstName;
+        private $secondName;
 
-    function __construct($first, $second) {
-      $this->firstname = $first;
-      $this->secondname = $second;
+        function __construct($first, $second)
+        {
+            $this->firstName = $first;
+            $this->secondName = $second;
+        }
+
+        public function concatNames()
+        {
+            return $this->firstName . ' ' . $this->secondName;
+        }
     }
-
-    public function ConcatNames() {
-      return $this->firstname . ' ' . $this->secondname;
-    }
-  }
-?>
