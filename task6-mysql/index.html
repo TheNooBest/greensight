@@ -8,8 +8,12 @@
   <body>
     <form id="requestForm" method="post">
       <!-- <input type="text" name="request" placeholder="Введите сюда запрос к БД"> -->
-      <textarea name="request" rows="8" cols="80" placeholder="Введите сюда запрос к БД"></textarea>
-      <input type="submit" name="submit" value="Отправить запрос"></input>
+      <textarea id="input" name="request" rows="8" cols="80" placeholder="Введите сюда запрос к БД"></textarea>
+      <input type="submit" name="submit" value="Отправить запрос">
+      <input id="select_all"   type="button" name="select_all"   value="Выбрать всё <select *>">
+      <input id="delete_last"  type="button" name="delete_last"  value="Удалить последний">
+      <input id="update_first" type="button" name="update_first" value="Обновить первый">
+      <input id="create_table" type="button" name="create_table" value="Создать таблицу">
     </form>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
