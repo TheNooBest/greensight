@@ -1,6 +1,7 @@
 {
   "require": {
     "monolog/monolog": "1.0.*",
-    "php-amqplib/php-amqplib": ">=2.7.0"
+    "php-amqplib/php-amqplib": ">=2.7.0",
+    "laravel/installer": "^3.2"
   }
 }
